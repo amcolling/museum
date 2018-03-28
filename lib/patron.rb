@@ -1,17 +1,15 @@
 
 
 class Patron
-  attr_reader :name
+  attr_reader :name,
+              :interests
 
-  def initialize
+  def initialize patron_names
     @name = "Bob"
-    @result = result
     @interests = []
 
   end
 
-  def patron_name
-    bob.name
-  end
+
 
 end

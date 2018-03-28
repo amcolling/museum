@@ -5,7 +5,7 @@ require 'minitest/pride'
 
 
   class TestPatron < Minitest::Test
-    def test_patron_names
+    def test_it_exists
       patron = Patron.new
       assert_instance_of Patron, patron
     end

@@ -12,13 +12,16 @@ require 'pry'
       @interests = []
     end
 
-    def add_name(name)
-      add_name = @name
+    def add_name(name = "Bob")
+      name
     end
 
-    def add_interests(data)
-      add_interests = @interests.to_s(data)
+    def add_interests(data = "Dead Sea Scrolls")
+      data
     end
+
+
+
 
 
   end
